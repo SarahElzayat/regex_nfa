@@ -1,0 +1,12 @@
+digraph DFA {
+	rankdir=LR size="600, 800"
+	node [shape=circle]
+	"" [shape=none]
+	S0 [label=S0 shape=circle]
+	S1 [label=S1 shape=circle]
+	S2 [label=S2 shape=doublecircle]
+	"" -> S0 [label=Start]
+	S0 -> S1 [label=a]
+	S1 -> S2 [label=b]
+	S2 -> S2 [label=b]
+}

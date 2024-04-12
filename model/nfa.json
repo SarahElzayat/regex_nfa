@@ -1,0 +1,37 @@
+{
+    "startingState": "S0",
+    "S0": {
+        "isTerminatingState": "False",
+        "epsilon": [
+            "S1"
+        ]
+    },
+    "S1": {
+        "isTerminatingState": "False",
+        "a": [
+            "S2"
+        ]
+    },
+    "S2": {
+        "isTerminatingState": "False",
+        "epsilon": [
+            "S3"
+        ]
+    },
+    "S3": {
+        "isTerminatingState": "False",
+        "b": [
+            "S4"
+        ]
+    },
+    "S4": {
+        "isTerminatingState": "False",
+        "epsilon": [
+            "S5",
+            "S3"
+        ]
+    },
+    "S5": {
+        "isTerminatingState": "True"
+    }
+}
