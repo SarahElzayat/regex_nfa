@@ -1,0 +1,37 @@
+{
+    "0": {
+        "isTerminatingState": false,
+        "A": [
+            "1"
+        ]
+    },
+    "1": {
+        "isTerminatingState": false,
+        "eps": [
+            "5"
+        ]
+    },
+    "2": {
+        "isTerminatingState": false,
+        "B": [
+            "3"
+        ]
+    },
+    "3": {
+        "isTerminatingState": false,
+        "eps": [
+            "5"
+        ]
+    },
+    "4": {
+        "eps": [
+            "0",
+            "2"
+        ],
+        "isTerminatingState": false
+    },
+    "5": {
+        "isTerminatingState": true
+    },
+    "startingState": "4"
+}
